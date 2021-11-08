@@ -306,24 +306,7 @@ a:hover, a:focus, a:active {
   border-color: #144d7b;
 }
 
-/* Team 
-================================= */
-.team-member {
-  background: #1f76bd;
-  color: #fff;
-  text-align: center;
-  padding-bottom: 15px;
-  border: 1px solid #1f76bd;
-}
-.team-member .thumnail img {
-  width: 100%;
-}
-.team-member .member-name {
-  font-weight: bold;
-}
-.team-member .member-position {
-  padding: 0 15px 5px;
-}
+
 
 /* footer 
 ================================= */
