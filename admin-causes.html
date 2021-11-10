@@ -97,36 +97,52 @@
         </nav> 
 
     </header> <!-- /. main-header -->
-    <div class="section-home home-reasons">
-        <div class="container">
-            <form action="php/adm_causes2.php" method="post" enctype="multipart/form-data">
-            </div>
+    
+    <div class="page-heading text-center">
+
+        <div class="container zoomIn animated">
+          
+          <h1 class="page-title">UPLOAD IMAGES <span class="title-under"></span></h1>
+          <p class="page-description">
+            A glance at our work.
+          </p>
+          
         </div>
-        <div class="row">   
-            <div class = "form-group">
+        </div>
+
+    <div class=" col-form">
+        
+                <h2 class="title-style-1">Upload the images here! <span class="title-under"></span></h2>
+
+
+            <form action="php/adm_causes2.php" method="post" enctype="multipart/form-data">
+            <div class="container">
+            <div class = "row">
                 <div class="form-group col-md-12">
+
                 <label for="title">Title</label>
                 <input type="text" name="title" id="title" class="form-control" required>
             </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class = "form-group">
+            
+            <div class = "form-group col-md-12">
                 <label for="description">Description</label>
                 <input type="text" name="description" id="description" class="form-control" required>
             </div>
-        </div>
-        <div class="row">
-            <div class = "form-group">
+            
+                <br>
+            <div class="container">
+            <div class = "form-group col-md-12">
+
                 <div class="row">   
-                    <input type="file" name="file"> </div>
-                    <div class="row">
-                        <button type="submit" name="submit">UPLOAD</button></div>
-                    </div>
+                    <input type="file" name="file">
+                        <button type="submit" name="submit">UPLOAD</button>
                 </div>
             </div>
-        </div>
+            </div>
+
         </form>
+    </div>
+    </div>
 
 
         <footer class="main-footer">
