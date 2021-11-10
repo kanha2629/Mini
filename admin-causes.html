@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
     <head>
         <meta charset="utf-8">
         <title>SAHAY | A helping hand</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
@@ -13,12 +12,11 @@
         <!-- Bootsrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-
         <!-- Font awesome -->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        <!-- PrettyPhoto -->
-        <link rel="stylesheet" href="assets/css/prettyPhoto.css">
+        <!-- Owl carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
 
         <!-- Template main Css -->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -26,26 +24,107 @@
         <!-- Modernizr -->
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
-    </head>
-    <body>
-        <div class="container">
-        <form action="php/adm_causes2.php" method="post" enctype="multipart/form-data">
 
+    </head>
+
+    <body>
+
+
+    <header class="main-header">
+        
+    
+        <nav class="navbar navbar-static-top">
+
+            <div class="navbar-top">
+
+              <div class="container">
+                  <div class="row">
+
+                    <div class="col-sm-6 col-xs-12">
+
+                        <ul class="list-unstyled list-inline header-contact">
+                            <li> <i class="fa fa-phone"></i> <a href="tel:">+91 1111111111 </a> </li>
+                             <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sahay.org">contact@sahay.org</a> </li>
+                       </ul> <!-- /.header-contact  -->
+                      
+                    </div>
+
+                    <div class="col-sm-6 col-xs-12 text-right">
+                     
+                    </div>
+
+
+                  </div>
+              </div>
+
+            </div>
+            
+            <div class="navbar-main">
+              
+              <div class="container">
+
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                  </button>
+                  
+                  <a class="navbar-brand" href="index.html"><img src="assets/images/sahay.png" style="height:250%;" alt=""></a>
+                  
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse pull-right">
+
+                  <ul class="nav navbar-nav">
+                    <li><a class="is-active" href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="has-child"><a href="causes.html">CAUSES</a>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+
+                </div> <!-- /#navbar -->
+
+              </div> <!-- /.container -->
+              
+            </div> <!-- /.navbar-main -->
+
+
+        </nav> 
+
+    </header> <!-- /. main-header -->
+    <div class="section-home home-reasons">
+        <div class="container">
+            <div class="row">
+            <form action="php/adm_causes2.php" method="post" enctype="multipart/form-data">
+        </div>
+        <div class="row">   
             <div class = "form-group">
+                <div class="form-group col-md-12">
                 <label for="title">Title</label>
                 <input type="text" name="title" id="title" class="form-control" required>
             </div>
-
+            </div>
+        </div>
+        <div class="row">
             <div class = "form-group">
                 <label for="description">Description</label>
                 <input type="text" name="description" id="description" class="form-control" required>
             </div>
-
+        <div class="row">
             <div class = "form-group">
-            <input type="file" name="file">
-            <button type="submit" name="submit">UPLOAD</button>
+                <div class="row">   
+            <input type="file" name="file"> </div>
+            <div class="row">
+            <button type="submit" name="submit">UPLOAD</button></div>
             </div>
-
+        </div>
+        </div>
+        </div>
         </form>
         </div>
     </body>
