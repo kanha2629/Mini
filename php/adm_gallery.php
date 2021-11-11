@@ -12,6 +12,8 @@ $conn = mysqli_connect($server, $username, $password, $dbname);
     $caption = $_REQUEST['caption'];
     $fileName = $_FILES['file']['name'];
     $fileType = $_FILES['file']['type'];
+    $filePath = "C:/xampp/htdocs/Mini/assets/images/gallery/".$fileName;
+
 
     // if (empty($caption)||(empty($fileName))) {
     //     echo "Please fill all details";
@@ -31,10 +33,10 @@ $conn = mysqli_connect($server, $username, $password, $dbname);
    
 		
   
-    if (empty($caption)||(empty($fileName))) {
+    if (empty($caption)||(empty($filePath))) {
         echo "Please fill all details";
     } else {
-        $sql = "INSERT INTO `gallery-images` (`caption`,`file`) VALUES ('".$caption."','".$fileName."')";
+        $sql = "INSERT INTO `gallery-images` (`caption`,`file`) VALUES ('".$caption."','".$filePath."')";
         $run = mysqli_query($conn,$sql);
     
 
