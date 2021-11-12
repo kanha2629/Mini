@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_REQUEST['name'];
     $email = $_REQUEST['email'];
     $message = $_REQUEST['message'];
-    <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModalLabel" aria-hidden="true">
+    //<div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModalLabel" aria-hidden="true">
 
 
     /*
@@ -98,15 +98,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   */
   
-    // if (empty($name)||(empty($email))||(empty($message))) {
-    //     echo "Please fill all details";
-    // } else {
-    //     $sql = "INSERT INTO `contact-data` (`name`,`email`,`message`) VALUES ('".$name."','".$email."','".$message."')";
-    //     $run = mysqli_query($conn,$sql);
+    if (empty($name)||(empty($email))||(empty($message))) {
+        echo "Please fill all details";
+    } else {
+        $sql = "INSERT INTO `contact-data` (`name`,`email`,`message`) VALUES ('".$name."','".$email."','".$message."')";
+        $run = mysqli_query($conn,$sql);
     
 
-    // echo "Thank You For Contacting Us ";
-    // }
+    echo "Thank You For Contacting Us ";
+    }
 }
     $conn->close();
 
