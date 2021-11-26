@@ -11,12 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_REQUEST['name'];
     $email = $_REQUEST['email'];
     $message = $_REQUEST['message'];
-    //<div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModalLabel" aria-hidden="true">
-
-
-    
-  */
-  
+   
     if (empty($name)||(empty($email))||(empty($message))) {
         echo "Please fill all details";
     } else {
