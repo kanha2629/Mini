@@ -1,0 +1,17 @@
+{
+    "name": "Sahay",
+    "theme_color": "#008eff",
+    "background_color": "#abd1ef",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "https://kanha2629.github.io/Mini/"
+,
+    "description": "A demo app for a fictional conference",
+    "icons": [
+        {
+        "src": "./assets/images/SAHAAY.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ]
+}
