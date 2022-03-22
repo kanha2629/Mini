@@ -9,10 +9,8 @@ self.addEventListener('install', async event => {
   
 const cacheName = 'pwa-conf-v1';
 const staticAssets = [
-'./',
-'./index.html',
-'./app.js',
-'./styles.css'
+'/',
+'/Mini'
 ];
 
 
