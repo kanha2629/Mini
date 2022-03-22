@@ -3,7 +3,7 @@
     "theme_color": "#008eff",
     "background_color": "#abd1ef",
     "display": "fullscreen",
-    "start_url": "/"
+    "start_url": "/Mini"
 ,
     "description": "A demo app for a fictional conference",
     "icons": [
