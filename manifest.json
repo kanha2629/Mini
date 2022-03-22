@@ -2,9 +2,9 @@
     "name": "Sahay",
     "theme_color": "#008eff",
     "background_color": "#abd1ef",
-    "display": "browser",
+    "display": "standalone",
     "scope": "/",
-    "start_url": "https://kanha2629.github.io/Mini/"
+    "start_url": "/Mini"
 ,
     "description": "A demo app for a fictional conference",
     "icons": [
