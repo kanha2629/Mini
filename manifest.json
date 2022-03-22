@@ -2,8 +2,7 @@
     "name": "Sahay",
     "theme_color": "#008eff",
     "background_color": "#abd1ef",
-    "display": "standalone",
-    "scope": "/",
+    "display": "fullscreen",
     "start_url": "/Mini"
 ,
     "description": "A demo app for a fictional conference",
